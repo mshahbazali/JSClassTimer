@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="date">
+
+        <h1 id="date" class="date"></h1>
+
+
+    </div>
+
+    <div class="container">
+
+
+        <div class="mainbox">
+            <div class="input">
+                <input type="text" maxlength="2" value="00" id="hour">
+                <input type="text" maxlength="2" value="00" id="mint">
+                <input type="text" maxlength="2" value="00" id="sec">
+            </div>
+
+            <div class="btn">
+
+
+                <button class="pause" onclick="pause()" style="margin-right: 10rem;"><img src="pause.png"
+                        alt=""></button>
+                <button class="start" onclick="start()" style="margin-right: 10rem;"><img src="play-button.png"
+                        alt=""></button>
+                <button class="stop" onclick="reset()"><img src="stop.png" alt=""></button>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
